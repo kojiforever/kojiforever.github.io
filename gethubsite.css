@@ -1,0 +1,29 @@
+*{
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.logo-w{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.menu-l{
+    display: flex;
+    flex-flow: row;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 20px 0px 50px 1200px;
+
+}
